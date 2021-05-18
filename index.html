@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <!-- <style>
+        /* fieldset{
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/806/35/612/pc-backgrounds-hd-nature-1920x1200-wallpaper-preview.jpg');
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        } */
+    </style> -->
+</head>
+<body>
+    <h1 style="text-align: center;">Bascic Node Js Calculator</h1>
+    <form action="/" method="post" >
+        <fieldset style="margin-left: auto;margin-right: auto;width: 450px;">
+            <legend>  <h1>Calculator</h1></legend>
+            <br>
+
+            <label><h4 style="display: inline-block;">&emsp;&emsp;Enter First Number &emsp;&nbsp;:</h4> &emsp;</label>
+            <input type="text" name="num1" id="" placeholder="First Number" required>
+           
+
+            <label><h4 style="display: inline-block;">&emsp;&emsp;Enter Second Number &nbsp;&nbsp;: </h4>&emsp;</label>
+            <input type="text" name="num2" id="" placeholder="Second Number" required>
+
+          
+
+            <label><h4 style="display: inline-block;">&emsp;&emsp;Select Operator &emsp;&emsp;&emsp;:</h4>&emsp;</label>
+            <select name="sel" style="width: 175px;" required>
+                <optgroup label="Select Operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Calculate" style="display: block;margin-left: auto;margin-right: auto;">
+        </fieldset>
+       
+    </form>
+</body>
+</html>
